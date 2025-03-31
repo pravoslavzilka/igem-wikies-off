@@ -1,11 +1,13 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Inclusivity() {
   const links: InspirationLink[] = [
-    { year: 2020, teamName: "Fudan", pageName: "Inclusion" },
-    { year: 2020, teamName: "CCU_Taiwan", pageName: "Inclusion" },
-    { year: 2020, teamName: "Concordia-Montreal", pageName: "Inclusion" },
-    { year: 2020, teamName: "CLS_CLSG_UK", pageName: "Inclusion" },
+    { year: 2024, teamName: "Patras-Med", pageName: "inclusivity" },
+    { year: 2024, teamName: "Fudan", pageName: "inclusivity" },
+    { year: 2023, teamName: "UniMuenster", pageName: "inclusivity" },
+    { year: 2023, teamName: "UGM-Indonesia", pageName: "inclusivity" },
+    { year: 2023, teamName: "Vilnius-Lithuania", pageName: "inclusivity" },
+    { year: 2023, teamName: "NIS-Kazakhstan", pageName: "inclusivity" },
   ];
 
   return (
@@ -17,26 +19,19 @@ export function Inclusivity() {
             <p>
               The Inclusivity Award recognizes exceptional efforts to include
               people with diverse identities in scientific research. Who is
-              allowed to have a voice in iGEM, synthetic biology, and science
+              allowed to have a voice in iGEM, synthetic biology and science
               more broadly? How have you developed new opportunities to
               eliminate barriers and allow more people to contribute to,
-              participate in, and/or be represented by these communities? To
+              participate in and/or be represented by these communities? To
               compete for this prize, activities do not have to be directly
               related to your team’s project. Document your approach, how you
-              improved inclusivity, and what was learned.
-            </p>
-            <p>
-              To compete for the Inclusivity award, select the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
+              improved inclusivity and what was learned.
             </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>

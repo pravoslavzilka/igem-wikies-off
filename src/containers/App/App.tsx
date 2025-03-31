@@ -1,9 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
-import { Footer, Header, Navbar, NotFound } from "../../components";
 import { getPathMapping, stringToSlug } from "../../utils";
 import { useEffect } from "react";
+import { Navbar } from "../../components/Navbar";
+import { Header } from "../../components/Header";
+import { NotFound } from "../../components/NotFound";
+import { Footer } from "../../components/Footer";
 
 const App = () => {
   const pathMapping = getPathMapping();

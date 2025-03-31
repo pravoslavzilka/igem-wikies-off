@@ -1,14 +1,13 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function HumanPractices() {
   const links: InspirationLink[] = [
-    { year: 2019, teamName: "Thessaly", pageName: "Human_Practices" },
-    { year: 2019, teamName: "Linkoping_Sweden", pageName: "Human_Practices" },
-    { year: 2019, teamName: "FDR-HB_Peru", pageName: "Human_Practices" },
-    { year: 2020, teamName: "William_and_Mary", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Rochester", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Leiden", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Baltimore_BioCrew", pageName: "Human_Practices" },
+    { year: 2024, teamName: "JU-Krakow", pageName: "human-practices" },
+    { year: 2024, teamName: "EPFL", pageName: "human-practices" },
+    { year: 2024, teamName: "Freiburg", pageName: "human-practices" },
+    { year: 2024, teamName: "Marburg", pageName: "human-practices" },
+    { year: 2024, teamName: "CJUH-JLU-China", pageName: "human-practices" },
+    { year: 2024, teamName: "Stanford", pageName: "human-practices" },
   ];
 
   return (
@@ -23,9 +22,9 @@ export function HumanPractices() {
             </p>
             <hr />
             <p>
-              Please see the{" "}
+              Visit the{" "}
               <a href="https://competition.igem.org/judging/medals">
-                2024 Medals Page
+                Medals page
               </a>{" "}
               for more information.
             </p>
@@ -36,26 +35,18 @@ export function HumanPractices() {
             <p>
               How does your project affect society and how does society
               influence the direction of your project? How might ethical
-              considerations and stakeholder input guide your project purpose
-              and design and the experiments you conduct in the lab? How does
-              this feedback enter into the process of your work all through the
-              iGEM competition? Document a thoughtful and creative approach to
+              considerations and stakeholder input guide your project purpose,
+              design and the experiments you conduct in the lab? How did this
+              feedback enter into the process of your work throughout the iGEM
+              Competition? Document a thoughtful and creative approach to
               exploring these questions and how your project evolved in the
-              process to compete for this award!
-            </p>
-            <p>
-              To compete for the Best Integrated Human Practices prize, select
-              the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
+              process, to compete for this award.
             </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>
@@ -68,39 +59,50 @@ export function HumanPractices() {
           <h2>Overview</h2>
           <hr />
           <p>
-            At iGEM we believe societal considerations should be upfront and
-            integrated throughout the design and execution of synthetic biology
-            projects. “Human Practices” refers to iGEM teams' efforts to
-            actively consider how the world affects their work and their work
-            affects the world. Through your Human Practices activities, your
-            team should demonstrate how you have thought carefully and
-            creatively about whether your project is responsible and good for
-            the world. We invite you to explore issues relating (but not
-            limited) to the ethics, safety, security, and sustainability of your
-            project, and to show how this exploration feeds back into your
-            project purpose, design, and execution.
+            At iGEM, Human Practices is about more than just outreach. It's
+            about actively considering the societal implications of your
+            synthetic biology project and demonstrating how those considerations
+            have shaped your work. This page documents our team's Human
+            Practices activities and their impact on our project.
           </p>
-          <p>
-            Please note you can compete for the Silver Medal criterion #2 and
-            the Best Integrated Human Practices prize with this page.
-          </p>
-          <p>
-            For more information, please see the{" "}
-            <a href="https://responsibility.igem.org/human-practices/what-is-human-practices">
-              Human Practices Hub
-            </a>
-            .
-          </p>
-          <p>
-            On this page, your team should document all of your Human Practices
-            work and activities. You should write about the Human Practices
-            topics you considered in your project, document any activities you
-            conducted to explore these topics (such as engaging with experts and
-            stakeholders), describe why you took a particular approach
-            (including referencing any work you built upon), and explain if and
-            how you integrated takeaways from your Human Practices work back
-            into your project purpose, design and/or execution.
-          </p>
+          <div className="bd-callout bd-callout-info">
+            <p>
+              For more information, visit the{" "}
+              <a href="https://responsibility.igem.org/human-practices/what-is-human-practices">
+                Human Practices Hub
+              </a>
+              .
+            </p>
+          </div>
+          <ul>
+            <li>
+              You should demonstrate how you have thoughtfully and creatively
+              addressed the question: "Is our project responsible and good for
+              the world?"
+            </li>
+            <li>
+              Clearly identify the ethical, social, safety, security, and
+              sustainability issues relevant to your project.
+            </li>
+            <li>
+              Document all interactions with experts, stakeholders, and the
+              public.
+            </li>
+            <li>
+              Explain how the insights gained from your Human Practices
+              activities influenced your project's purpose, design, and
+              execution.
+            </li>
+            <li>
+              Discuss any ethical dilemmas or challenges encountered during your
+              project.
+            </li>
+            <li>
+              Assess the potential social impact of your project, both positive
+              and negative.
+            </li>
+            <li>Consider the perspectives of diverse stakeholders.</li>
+          </ul>
         </div>
         <Inspirations inspirationLinkList={links} />
       </div>

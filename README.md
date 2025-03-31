@@ -1,4 +1,4 @@
-# Team TeamName 2024 Wiki
+# Team TeamName 2025 Wiki
 
 This repository uses `TypeScript` and `React` to manage the wikis.
 
@@ -59,7 +59,7 @@ Below is the structure of important files and directories in this project:
     │   ├── containers/
     │   │   └── App/         -> Main React application container
     │   ├── contents/
-    │   │   ├── *.tsx        -> Page components for the wiki
+    │   │   └── *.tsx        -> Page components for the wiki
     │   ├── main.tsx         -> Entry point of the wiki application
     │   ├── pages.ts         -> Page definition and path mapping
     │   ├── utils/           -> Utility functions

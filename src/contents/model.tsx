@@ -1,14 +1,13 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Model() {
   const links: InspirationLink[] = [
-    { year: 2018, teamName: "GreatBay_China", pageName: "Model" },
-    { year: 2018, teamName: "Leiden", pageName: "Model" },
-    { year: 2019, teamName: "IISER_Kolkata", pageName: "Model" },
-    { year: 2019, teamName: "Exeter", pageName: "Model" },
-    { year: 2019, teamName: "Mingdao", pageName: "Model" },
-    { year: 2020, teamName: "Harvard", pageName: "Model" },
-    { year: 2020, teamName: "Leiden", pageName: "Model" },
+    { year: 2024, teamName: "UToronto", pageName: "model" },
+    { year: 2024, teamName: "Heidelberg", pageName: "model" },
+    { year: 2024, teamName: "Waseda-Tokyo", pageName: "model" },
+    { year: 2024, teamName: "BNUZH-China", pageName: "model" },
+    { year: 2024, teamName: "CJUH-JLU-China", pageName: "model" },
+    { year: 2024, teamName: "Tsinghua", pageName: "model" },
   ];
 
   return (
@@ -23,23 +22,16 @@ export function Model() {
               and modeling are critical engineering skills that can contribute
               to project design or provide a better understanding of the modeled
               process. These processes are even more useful and/or informative
-              when real world data are included in the model. This award is for
+              when real-world data are included in the model. This award is for
               teams who build a model of their system and use it to inform
               system design or simulate expected behavior before, or in
               conjunction with, experiments in the wetlab.
             </p>
-            <p>
-              To compete for the Best Model prize, select the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
-            </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>

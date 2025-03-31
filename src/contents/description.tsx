@@ -1,13 +1,13 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Description() {
   const links: InspirationLink[] = [
-    { year: 2022, teamName: "DTU-Denmark", pageName: "Description" },
-    { year: 2019, teamName: "ITESO_Guadalajara", pageName: "Description" },
-    { year: 2020, teamName: "Technion-Israel", pageName: "Description" },
-    { year: 2020, teamName: "Botchan_Lab_Tokyo", pageName: "Description" },
-    { year: 2020, teamName: "St_Andrews", pageName: "Description" },
-    { year: 2020, teamName: "MIT", pageName: "Description" },
+    { year: 2024, teamName: "Heidelberg", pageName: "description" },
+    { year: 2024, teamName: "Marburg", pageName: "description" },
+    { year: 2024, teamName: "EPFL", pageName: "description" },
+    { year: 2024, teamName: "JU-Krakow", pageName: "description" },
+    { year: 2024, teamName: "UToronto", pageName: "description" },
+    { year: 2023, teamName: "Estonia-TUIT", pageName: "description" },
   ];
 
   return (
@@ -15,13 +15,13 @@ export function Description() {
       <div className="row mt-4">
         <div className="col">
           <div className="bd-callout bd-callout-info">
-            <h4>Bronze Medal Criterion #3</h4>
+            <h4>Bronze Medal Criterion #1: Wiki</h4>
             <p>Describe how and why you chose your iGEM project.</p>
             <hr />
             <p>
-              Please see the{" "}
+              Visit the{" "}
               <a href="https://competition.igem.org/judging/medals">
-                2024 Medals Page
+                Medals page
               </a>{" "}
               for more information.
             </p>
@@ -31,18 +31,31 @@ export function Description() {
 
       <div className="row mt-4">
         <div className="col-lg-8">
-          <h2>What should this page contain?</h2>
+          <h2>What Should this Page Contain?</h2>
           <hr />
           <ul>
-            <li>A clear and concise description of your project.</li>
             <li>
-              A detailed explanation of why your team chose to work on this
-              particular project.
+              Explain the problem your project addresses and its potential
+              impact.
             </li>
-            <li>References and sources to document your research.</li>
             <li>
-              Use illustrations and other visual resources to explain your
-              project.
+              Provide a clear and concise summary of your project's goals and
+              objectives.
+            </li>
+            <li>
+              Detail the specific reasons why your team chose this project.
+            </li>
+            <li>
+              Explain the inspiration behind your project, including any prior
+              research or real-world problems that motivated your team.
+            </li>
+            <li>
+              Use illustrations, diagrams, and other visual aids to enhance
+              understanding.
+            </li>
+            <li>
+              Include relevant scientific background, technical details, and
+              experimental approaches.
             </li>
           </ul>
         </div>
@@ -51,26 +64,28 @@ export function Description() {
 
       <div className="row mt-4">
         <div className="col-lg-8">
-          <h2>Some advice</h2>
+          <h2>Tips for Success</h2>
           <hr />
-          <p>
-            We encourage you to put up a lot of information and content on your
-            wiki, but we also encourage you to include summaries as much as
-            possible. If you think of the sections in your project description
-            as the sections in a publication, you should try to be concise,
-            accurate, and unambiguous in your achievements. Your Project
-            Description should include more information than your project
-            abstract.
-          </p>
+          <ul>
+            <li>
+              While providing detailed information, strive for clarity and
+              conciseness.
+            </li>
+            <li>Use summaries and subheadings to organize your content.</li>
+            <li>Utilize visuals to enhance understanding and engagement.</li>
+            <li>Document your research process and sources thoroughly.</li>
+          </ul>
         </div>
         <div className="col-lg-4">
           <h2>References</h2>
           <hr />
           <p>
-            iGEM teams are encouraged to record references you use during the
-            course of your research. They should be posted somewhere on your
-            wiki so that judges and other visitors can see how you thought about
-            your project and what works inspired you.
+            Cite all relevant research papers, scientific articles, and other
+            sources that informed your project.
+          </p>
+          <p>
+            Create a dedicated "References" section at the end of the page, and
+            use a consistent citation style.
           </p>
         </div>
       </div>

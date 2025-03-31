@@ -4,29 +4,53 @@ export function Contribution() {
       <div className="row mt-4">
         <div className="col">
           <div className="bd-callout bd-callout-info">
-            <h4>Bronze Medal Criterion #4</h4>
+            <h4>Bronze Medal Criterion #3</h4>
             <p>
-              Make a useful contribution for future iGEM teams. Use this page to
-              document that contribution.
-            </p>
-            <p>
-              If you are making a contribution by adding information to an
-              existing Part or creating a new Part, you must document your
-              contribution on the Part's Main Page on the{" "}
-              <a href="https://parts.igem.org/Main_Page">Registry</a> for your
-              team to be eligible for this criteria. You can use this page to
-              link to that part and include additional information about your
-              contribution.
+              Make a useful contribution for future iGEM teams and document it
+              on this page.
             </p>
             <hr />
             <p>
-              Please see the{" "}
+              Visit the{" "}
               <a href="https://competition.igem.org/judging/medals">
-                2024 Medals Page
+                Medals page
               </a>{" "}
               for more information.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        <div className="col">
+          <h2>What Should this Page Contain?</h2>
+          <hr />
+          <p>
+            Teams must document their contribution and explain why their effort
+            is a contribution to fellow iGEMers. There is no single definition
+            of what a contribution should be. We invite teams to be creative and
+            generous in the knowledge, data or tools they may provide to the
+            community.
+          </p>
+          <p>A few examples of contributions are:</p>
+          <ul>
+            <li>
+              Creating a new BioBrick part or significantly improving an
+              existing one in the iGEM Registry.
+            </li>
+            <li>
+              Developing software, tools, or resources that can considerably
+              assist future iGEM teams.
+            </li>
+            <li>
+              Sharing optimized protocols, experimental techniques, or
+              methodologies.
+            </li>
+            <li>
+              Any other contributions that provide a clear benefit to future
+              iGEM teams.
+            </li>
+          </ul>
         </div>
       </div>
     </>

@@ -1,13 +1,13 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Measurement() {
   const links: InspirationLink[] = [
-    { year: 2018, teamName: "UC_Davis", pageName: "Measurement" },
-    { year: 2019, teamName: "Newcastle", pageName: "Measurement" },
-    { year: 2019, teamName: "Evry_Paris-Saclay", pageName: "Measurement" },
-    { year: 2019, teamName: "GENAS_China", pageName: "Measurement" },
-    { year: 2020, teamName: "Calgary", pageName: "Measurement" },
-    { year: 2020, teamName: "CSMU_Taiwan", pageName: "Measurement" },
+    { year: 2024, teamName: "Austin-utexas", pageName: "measurement" },
+    { year: 2024, teamName: "KULeuven", pageName: "measurement" },
+    { year: 2024, teamName: "Freiburg", pageName: "measurement" },
+    { year: 2023, teamName: "William-and-Mary", pageName: "measurement" },
+    { year: 2023, teamName: "Estonia-TUIT", pageName: "measurement" },
+    { year: 2023, teamName: "UNILausanne", pageName: "measurement" },
   ];
 
   return (
@@ -20,24 +20,17 @@ export function Measurement() {
               Measurements are critical to scientific communication and
               advancement. Well-reported measurements are the only way to show
               whether hardware is functioning correctly, whether data are
-              reliable, and whether a result is actually important. There is a
-              high value in identifying appropriate targets for measurement,
+              reliable and whether a result is actually important. There is high
+              value in identifying appropriate targets for measurement,
               collecting precise measurements, and reporting results clearly and
               with appropriate units. Document your careful measurement efforts
               and you could win this award!
             </p>
-            <p>
-              To compete for the Best Measurement prize, select the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
-            </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>

@@ -1,27 +1,37 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Notebook() {
   const links: InspirationLink[] = [
-    { year: 2018, teamName: "Munich", pageName: "Notebook" },
-    { year: 2019, teamName: "Georgia_State", pageName: "Notebook" },
-    { year: 2019, teamName: "Newcastle", pageName: "Notebook" },
-    { year: 2020, teamName: "IISER-Pune-India", pageName: "Notebook" },
-    { year: 2020, teamName: "Lund", pageName: "Notebook" },
-    { year: 2020, teamName: "NOVA_LxPortugal", pageName: "Notebook" },
-    { year: 2020, teamName: "RDFZ-China", pageName: "NoteBook" },
+    { year: 2024, teamName: "EPFL", pageName: "notebook" },
+    { year: 2024, teamName: "JU-Krakow", pageName: "notebook" },
   ];
 
   return (
     <>
       <div className="row mt-4">
         <div className="col-lg-8">
-          <h2>What should this page contain?</h2>
+          <h2>What Should this Page Contain?</h2>
           <hr />
           <ul>
-            <li>Chronological notes of what your team is doing.</li>
-            <li>Brief descriptions of daily important events.</li>
-            <li>Pictures of your progress.</li>
-            <li>Mention who participated in what task.</li>
+            <li>
+              Record all activities in chronological order, with each entry
+              clearly dated.
+            </li>
+            <li>Provide sufficient detail for each activity, including:</li>
+            <ul>
+              <li>Purpose of the activity.</li>
+              <li>Methods and procedures used.</li>
+              <li>Results obtained.</li>
+              <li>Observations and notes.</li>
+            </ul>
+            <li>
+              Document all experiments, protocols, data analysis, meetings,
+              brainstorming sessions, and other project-related activities.
+            </li>
+            <li>
+              Include photos, videos, and diagrams to illustrate your progress.
+            </li>
+            <li>Indicate which team members participated in each activity.</li>
           </ul>
         </div>
         <Inspirations inspirationLinkList={links} />

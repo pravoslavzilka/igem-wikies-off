@@ -25,7 +25,7 @@ export function Navbar() {
         <NavDropdown
           key={`page-${pageIndex}`}
           title={item.name}
-          id="basic-nav-dropdown"
+          id={`page-${pageIndex}`}
         >
           {folderItems}
         </NavDropdown>

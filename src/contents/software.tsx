@@ -1,13 +1,9 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Software() {
   const links: InspirationLink[] = [
-    { year: 2019, teamName: "Sydney_Australia", pageName: "Software" },
-    { year: 2019, teamName: "SMMU-China", pageName: "Software" },
-    { year: 2019, teamName: "Grenoble-Alpes", pageName: "Software" },
-    { year: 2020, teamName: "DTU-Denmark", pageName: "Software" },
-    { year: 2020, teamName: "GunnVistaPingry_US", pageName: "Software" },
-    { year: 2020, teamName: "Rochester", pageName: "Software" },
+    { year: 2024, teamName: "Vilnius-Lithuania", pageName: "software" },
+    { year: 2023, teamName: "Fudan", pageName: "software" },
   ];
 
   return (
@@ -17,46 +13,75 @@ export function Software() {
           <div className="bd-callout bd-callout-info">
             <h4>Best Software Tool</h4>
             <p>
-              Regardless what's the topic, iGEM projects often create or adapt
-              computational tools to move the bigger project forward. Because
-              they are born out of a direct practical need, these software tools
-              (or new computational methods) can even prove surprisingly useful
-              for others. Without necessarily being big or complex, they can
-              make the crucial difference to a project's success. This award
-              tries to find and honor such "nuggets" of computational work. To
-              be eligible, your software has to be documented and made available
-              under an OSI-approved open source license. Teams nominating
-              themselves for this prize must host the source code of their
-              software on the dedicated repository on{" "}
-              <a href="https://gitlab.igem.org/2024/software-tools/">
-                iGEM's GitLab
-              </a>
-              .
-            </p>
-            <p>
-              To compete for the Best Software Tool prize, select the prize on
-              the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>
-              , host your software on{" "}
-              <a href="https://gitlab.igem.org/2024/software-tools/">
-                iGEM's GitLab
-              </a>
-              , and describe your work on this page.
+              Regardless of what the topic is, iGEM projects often create or
+              adapt computational tools to move their overall project forward.
+              Because they are born out of a direct practical need, these
+              software tools (or new computational methods) can even prove
+              surprisingly useful for others. Without necessarily being big or
+              complex, they can make the crucial difference to a project's
+              success. This award tries to find and honor such "nuggets" of
+              computational work. To be eligible, your software has to be
+              documented and made available under an OSI-approved open-source
+              license.
             </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>
           </div>
         </div>
       </div>
-      <Inspirations inspirationLinkList={links} />
+
+      <div className="row mt-4">
+        <div className="col-lg-8">
+          <h2>What Should this Page Contain?</h2>
+          <hr />
+          <p>
+            This page should aim to make your software accessible and
+            understandable to a wide audience, supplementing the detailed
+            technical documentation available on the repository.
+          </p>
+          <ul>
+            <li>
+              Provide a clear and concise overview of the software's purpose and
+              functionality.
+            </li>
+            <li>
+              Use non-technical language to make it accessible to a broad
+              audience.
+            </li>
+            <li>
+              Create step-by-step instructions on how to use the software.
+            </li>
+            <li>Include screenshots and visual aids to guide users.</li>
+            <li>
+              Explain how to integrate the software with other tools or
+              platforms.
+            </li>
+            <li>
+              Explain the key design choices made during the software's
+              development.
+            </li>
+            <li>
+              Discuss any trade-offs or compromises made during the design
+              process.
+            </li>
+            <li>
+              Provide a high-level overview of the software's architecture.
+            </li>
+            <li>
+              Provide clear instructions on how to deploy and install the
+              software.
+            </li>
+            <li>Provide an overview of the software's API, if applicable.</li>
+          </ul>
+        </div>
+        <Inspirations inspirationLinkList={links} />
+      </div>
     </>
   );
 }

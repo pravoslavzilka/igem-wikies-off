@@ -1,30 +1,36 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Experiments() {
   const links: InspirationLink[] = [
-    { year: 2019, teamName: "Nantes", pageName: "Experiments" },
-    { year: 2019, teamName: "TU_Eindhoven", pageName: "Experiments" },
-    { year: 2019, teamName: "Mingdao", pageName: "Demonstrate" },
-    { year: 2020, teamName: "Amsterdam", pageName: "Experiments" },
-    { year: 2020, teamName: "NCTU_Formosa", pageName: "Experiments" },
-    { year: 2020, teamName: "USAFA", pageName: "Experiments" },
+    { year: 2024, teamName: "Heidelberg", pageName: "experiments" },
+    { year: 2024, teamName: "Marburg", pageName: "experiments" },
+    { year: 2024, teamName: "EPFL", pageName: "experiments" },
+    { year: 2023, teamName: "Estonia-TUIT", pageName: "experiments" },
   ];
 
   return (
     <>
       <div className="row mt-4">
         <div className="col-lg-8">
-          <h2>What should this page contain?</h2>
+          <h2>What Should this Page Contain?</h2>
           <hr />
           <p>
-            Describe the research, experiments, and protocols you used in your
-            iGEM project. These should be detailed enough for another team to
-            repeat your experiments.
+            Provide comprehensive, step-by-step protocols for all experiments
+            conducted. Include a list of materials, reagents, and equipment
+            used. Specify concentrations, volumes, incubation times,
+            temperatures, and other critical parameters. Document any
+            modifications or optimizations made to standard protocols.
           </p>
           <p>
-            If you made Parts this year, please remember to put all information,
-            characterization, and measurement data on the Part's Main Page on
-            the <a href="https://parts.igem.org/Main_Page">Registry</a>.
+            Explain the purpose of each experiment and its relevance to your
+            project goals. Describe the experimental design, including controls
+            and replicates. Provide a clear rationale for the chosen methods and
+            approaches.
+          </p>
+          <p>
+            Document any troubleshooting steps taken and optimizations made
+            during the experimental process. Share any lessons learned that
+            could benefit future teams.
           </p>
         </div>
         <Inspirations inspirationLinkList={links} />

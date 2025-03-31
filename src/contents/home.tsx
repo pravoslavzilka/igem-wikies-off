@@ -1,103 +1,143 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Home() {
   const links: InspirationLink[] = [
-    { year: 2022, teamName: "DTU-Denmark", pageName: "" },
-    { year: 2022, teamName: "Virginia", pageName: "" },
-    { year: 2022, teamName: "Crete", pageName: "" },
-    { year: 2022, teamName: "Estonia_TUIT", pageName: "" },
-    { year: 2022, teamName: "AshesiGhana", pageName: "" },
-    { year: 2021, teamName: "SDU-Denmark", pageName: "" },
-    { year: 2020, teamName: "XMU-China", pageName: "" },
-    { year: 2020, teamName: "TAS_Taipei", pageName: "" },
+    { year: 2024, teamName: "JU-Krakow", pageName: "" },
+    { year: 2024, teamName: "GEMS-Taiwan", pageName: "" },
+    { year: 2024, teamName: "Heidelberg", pageName: "" },
+    { year: 2024, teamName: "Marburg", pageName: "" },
+    { year: 2024, teamName: "Sydney-Australia", pageName: "" },
+    { year: 2024, teamName: "Toulouse-INSA-UPS", pageName: "" },
+    { year: 2024, teamName: "BNDS-China", pageName: "" },
+    { year: 2024, teamName: "Vilnius-Lithuania", pageName: "" },
+    { year: 2024, teamName: "BNUZH-China", pageName: "" },
+    { year: 2024, teamName: "XMU-China", pageName: "" },
   ];
 
   return (
     <>
       <div className="row">
         <div className="col">
-          <h2>Before you start</h2>
+          <h2>Essential First Steps</h2>
           <hr />
-          <p>Please read the following pages:</p>
+          <p>
+            Familiarize yourself with the official iGEM competition rules,
+            policies, and judging criteria:
+          </p>
           <ul>
             <li>
+              Carefully review the{" "}
               <a
                 href="https://competition.igem.org/deliverables/team-wiki"
                 target="_blank"
               >
                 Wiki Requirements page
-              </a>
+              </a>{" "}
+              to ensure your wiki meets all necessary standards for judging and
+              awards.
             </li>
             <li>
+              Understand the criteria and required wiki pages for Gold, Silver,
+              and Bronze Medals on the{" "}
               <a
-                href="https://competition.igem.org/judging/pages-for-awards"
+                href="https://competition.igem.org/judging/medals"
                 target="_blank"
               >
-                Standard URL Pages for Awards
+                Medals page
               </a>
+              .
+            </li>
+            <li>
+              Explore the various Project Prizes and their corresponding wiki
+              requirements on the{" "}
+              <a
+                href="https://competition.igem.org/judging/project-prizes"
+                target="_blank"
+              >
+                Project Prizes Page
+              </a>
+              .
+            </li>
+            <li>
+              Discover the eligibility criteria and wiki requirements for
+              Special Prizes on the{" "}
+              <a
+                href="https://competition.igem.org/judging/special-prizes"
+                target="_blank"
+              >
+                Special Prizes Page
+              </a>
+              .
             </li>
           </ul>
         </div>
       </div>
       <div className="row mt-4">
         <div className="col">
-          <h2>Styling your wiki</h2>
+          <h2>Building Your Wiki</h2>
           <hr />
-          <p>
-            Feel free to customize the page styling according to your
-            preferences, or you can simply leave the style as it is. It's wise
-            to focus on a clear content first, and on a clean design later.
-          </p>
-          <p>
-            Be cautious with the size of the assets like images, videos, and
-            more, that you put in your wiki. Large file sizes can hinder the
-            presentation of wikis due to slow internet connections. Remember to
-            compress large files before uploading them to iGEM servers.
-          </p>
-          <p>
-            This default wiki meets the requirements, enhances navigability, and
-            provides a user-friendly experience for visitors. You should not
-            feel obligated to go beyond the provided styling.
-          </p>
+          <ul>
+            <li>
+              <b>Content First, Design Second</b>: Focus on clearly documenting
+              your project, research, and activities. Design can be refined
+              later.
+            </li>
+            <li>
+              <b>Navigation is Key</b>: Structure your wiki with clear and
+              intuitive navigation. Visitors should easily find information.
+            </li>
+            <li>
+              <b>Accessibility Matters</b>: Use readable fonts, appropriate
+              color contrast, and ensure your wiki is mobile-friendly.
+            </li>
+            <li>
+              <b>Media Optimization</b>: Compress images and videos to reduce
+              file sizes and improve loading times.
+            </li>
+            <li>
+              <b>Document Early & Often</b>: Start documenting your project from
+              day one. Don't wait until the Wiki Freeze.
+            </li>
+            <li>
+              <b>Prepare for Deadlines</b>: Stay up-to-date with important
+              deadlines and events by checking the{" "}
+              <a href="https://competition.igem.org/calendar" target="_blank">
+                iGEM Competition Calendar
+              </a>
+              .
+            </li>
+          </ul>
         </div>
       </div>
       <div className="row mt-4">
         <div className="col-lg-8">
-          <h2>Tips</h2>
+          <h2>Tips for Success</h2>
           <hr />
-          <p>
-            This wiki will be your team's first interaction with the rest of the
-            world, so here are a few tips to help you get started:
-          </p>
           <ul>
             <li>
-              State your accomplishments! Tell people what you have achieved
-              from the start.
+              <b>Clearly Define Your Project</b>: Explain your project's goals,
+              methodology, and expected outcomes in a clear and concise manner.
             </li>
             <li>
-              Be clear about what you are doing and how you plan to do this.
+              <b>Show Your Progress</b>: Regularly update your wiki with your
+              team's progress, experiments, and results.
             </li>
             <li>
-              You have a global audience! Consider the different backgrounds
-              that your users come from.
+              <b>Engage Your Audience</b>: Consider your global audience and use
+              language that is accessible to everyone.
             </li>
             <li>
-              Make sure information is easy to find; nothing should be more than
-              3 clicks away.
+              <b>Human Practices & Safety</b>: Thoroughly document your team's
+              human practices activities and safety considerations.
             </li>
             <li>
-              Avoid using very small fonts and low contrast colors; information
-              should be easy to read.
+              <b>Collaborate & Share</b>: Highlight collaborations with other
+              teams and institutions.
             </li>
             <li>
-              Start documenting your project as early as possible; don't leave
-              anything to the last minute before the Wiki Freeze. For a complete
-              list of deadlines visit the{" "}
-              <a href="https://competition.igem.org/calendar" target="_blank">
-                iGEM Competition calendar
-              </a>
+              <b>Have Fun and Learn!</b> iGEM is a unique opportunity to learn,
+              grow, and contribute to synthetic biology.
             </li>
-            <li>Have lots of fun!</li>
           </ul>
         </div>
         <Inspirations inspirationLinkList={links} />

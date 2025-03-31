@@ -25,51 +25,87 @@ export function Attributions() {
     <>
       <div className="row mt-4">
         <div className="col">
-          <div>
-            <p>Teams must use the standard Attributions form. To meet the attributions requirement, you must display the standard form on your Wiki by following the instructions <a href="https://competition.igem.org/deliverables/project-attribution" target="_blank">here</a></p>
-          </div>
-          <div className="bd-callout bd-callout-info">
-            <p>
-              In the iGEM Competition, we celebrate student effort and
-              achievement. The Attributions form helps the judges differentiate
-              between what students accomplished from how their external
-              collaborators supported them. Therefore, teams must clearly
-              explain on the standard Project Attributions form what work they
-              have conducted by themselves and what has been done by others.
-            </p>
-            <p>
-              Teams must use the standard Attributions form. To meet the
-              attributions requirement, you must display the standard form on
-              your Wiki by following the instructions here:
-              <a href="https://competition.igem.org/deliverables/project-attribution">
-                Project Attribution page
-              </a>
-              .
-            </p>
-          </div>
           <div className="bd-callout bd-callout-info">
             <h4>Bronze Medal Criterion #2</h4>
             <p>
               Describe what work your team members did and what other people did
-              for your project.
+              for your project using the standardized Project Attributions Form.
             </p>
+            <hr />
             <p>
-              The form that has been embedded in an iframe in this page shows
-              your team's Project Attribution form. This page must keep the form
-              as it is.
-            </p>
-            <p>
-              If you use a different website framework, make sure to embed the
-              right URL for your team's form.
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/medals">
+                Medals page
+              </a>{" "}
+              for more information.
             </p>
           </div>
         </div>
       </div>
-      <iframe
-        style={{ width: "100%" }}
-        id="igem-attribution-form"
-        src={`https://teams.igem.org/wiki/${teamID}/attributions`}
-      />
+
+      <div className="row mt-4">
+        <div className="col">
+          <h2>What Should this Page Contain?</h2>
+          <hr />
+          <ul>
+            <li>The standard navigation menu of your wiki</li>
+            <li>The standard footer of your wiki</li>
+            <li>
+              The embedded iframe containing your standardized team's Project
+              Attribution form.
+            </li>
+            <li>Nothing else</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        <div className="col">
+          <h2>Tips for Success</h2>
+          <hr />
+          <p>
+            Teams must use the official Attributions form. This form clearly
+            delineates the work conducted by your team members and the support
+            received from others. Carefully review the instructions and
+            requirements of this deliverable on the{" "}
+            <a href="https://competition.igem.org/deliverables/project-attribution">
+              Project Attribution page
+            </a>
+            . Please note:
+          </p>
+          <ul>
+            <li>
+              Teams must use the standard form. Do not create your own form.
+            </li>
+            <li>
+              The standard Attributions Form must be filled out completely,
+              accurately and honestly.
+            </li>
+            <li>
+              For the best results, we recommend teams start filling out the
+              Attributions Form early in the season and updating it often.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/*
+        ======================================================================
+        == VERY IMPORTANT                                                   ==
+        ======================================================================
+        LEAVE THE IFRAME CODE BELOW AS IT IS, THE ATTRIBUTION FORM OF YOUR TEAM
+        WILL BE DISPLAYED ON THIS PAGE. DO NOT REMOVE IT, OTHERWISE YOU RISK OF
+        NOT MEETING BRONZE MEDAL CRITERION #2
+      */}
+
+      <div className="row mt-4">
+        <iframe
+          style={{ width: "100%" }}
+          id="igem-attribution-form"
+          src={`https://teams.igem.org/wiki/${teamID}/attributions`}
+        />
+      </div>
+      {/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */}
     </>
   );
 }

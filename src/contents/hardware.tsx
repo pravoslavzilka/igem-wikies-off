@@ -1,14 +1,11 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Inspirations, InspirationLink } from "../components/Inspirations";
 
 export function Hardware() {
   const links: InspirationLink[] = [
-    { year: 2018, teamName: "Valencia_UPV", pageName: "Hardware" },
-    { year: 2018, teamName: "Unesp_Brazil", pageName: "Hardware" },
-    { year: 2019, teamName: "BIT", pageName: "Hardware" },
-    { year: 2019, teamName: "Bielefeld-CeBiTec", pageName: "Hardware" },
-    { year: 2019, teamName: "Nanjing-China", pageName: "Hardware" },
-    { year: 2020, teamName: "Vilnius-Lithuania", pageName: "Hardware" },
-    { year: 2020, teamName: "ZJUT_China_B", pageName: "Hardware" },
+    { year: 2024, teamName: "Aachen", pageName: "hardware" },
+    { year: 2023, teamName: "Rochester", pageName: "hardware" },
+    { year: 2023, teamName: "HUST-China", pageName: "hardware" },
+    { year: 2023, teamName: "Kyoto", pageName: "hardware" },
   ];
 
   return (
@@ -23,21 +20,15 @@ export function Hardware() {
               synthetic biology based on standard parts easier, faster, better
               or more accessible to our community. Did your team make a sensor
               to help teams characterize parts? Did you make a robot that can
-              help teams perform experiments or do cloning more easily? Tell us
-              what your team did for this award!
-            </p>
-            <p>
-              To compete for the Best Hardware prize, select the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
+              help teams perform experiments or do cloning more easily? Strong
+              competitors for this prize will demonstrate utility, user testing,
+              and easy reproducibility.
             </p>
             <hr />
             <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
+              Visit the{" "}
+              <a href="https://competition.igem.org/judging/special-prizes">
+                Special Prizes page
               </a>{" "}
               for more information.
             </p>
