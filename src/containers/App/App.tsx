@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
 
-      <Loading />
+      
 
       {/* Footer */}
       {/* MUST mention license AND have a link to team wiki's repository on gitlab.igem.org */}
